@@ -1,0 +1,94 @@
+body {
+	background-color: #1522;
+	text-align: center;
+	font-family: 'Lexend Deca', sans-serif;
+}
+
+.output {
+	padding-top: 3%;
+}
+
+.displayTable {
+	table-layout: auto;
+	max-width: 500px;
+	margin: 0 auto;
+	font-size: 25px;
+}
+
+td {
+	border: 1px solid black;
+	padding: 10px;
+	background-color: white;
+}
+
+#submit {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #000000;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#submit:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+#userInput {
+     padding: 6px;
+     font-size: 23px;
+     border-width: 1px;
+     border-color: #CCCCCC;
+     background-color: #FFFFFF;
+     color: #000000;
+     border-style: solid;
+     border-radius: 0px;
+     box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+	 margin-right: 5px;
+}
+
+#clear {
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+	margin-top: 8px;
+}
+
+#clear:hover {
+	background-color:#eb675e;
+}
+
+#clear:active {
+	position:relative;
+	top:1px;
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
